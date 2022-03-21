@@ -60,13 +60,14 @@ keyword = "titi"
 
 # rédiger un bloc if qui indique si le keyword est présent ou non dans la chaîne de caractères
 
-if texte.find("toto") >=0:
-    print(texte.find("toto"))
+keyword = "toto"
+if texte.find (keyword) >=0:
     print("trouvé")
 
-if texte.find("toto") >=0:
-    print(texte.find("titi"))
+keyword = "titi"
+if texte.find (keyword)>=0:
     print("non trouvé")
+
 
 texte = "Bnjour  Toto"
 texte = texte.replace('Bnjour', 'Bonjour')
