@@ -5,6 +5,9 @@
 # qu'elle s'affiche correctement en utilisant la fonction help()
 
 # réponse 5.1
+from unittest import result
+
+
 def multiplication(a: float, b: float) -> float:
     """Cette fonction renvoie  le produit ( c-à-d la multiplication) de deux nombres
 
@@ -38,7 +41,10 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 # réponse 5.3
 
-
+start = 12
+end = 20
+result = my_text[12:20+1]
+print(result)
 
 # code 5.1
 # La méthode `str.split()` permet de scinder une chaîne de caractères en tableau de chaînes de caractères en utilisant un séparateur
@@ -54,6 +60,10 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."""
 
 # réponse 5.4
+
+splitted_text=my_text.split(' ')
+print(splitted_text[5])
+
 
 # code 5.2
 # En python, un saut de ligne dans une chaîne de caractères peut être obtenu en utilisant un caractère échappé
